@@ -4,10 +4,6 @@ var http = require('http');
 http.createServer(function (request, response) {
 
     response.writeHead(200, { 'Content-Type': 'text/plain;charset=utf-8' });
-    var i = 0;
-    for (var i = 0; i < 10; i++) {
-        console.log(i);
-    }
     response.end('Hello World\n  你好，世界！');
 }).listen(8888);
 
