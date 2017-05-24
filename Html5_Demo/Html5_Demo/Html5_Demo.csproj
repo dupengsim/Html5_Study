@@ -218,6 +218,7 @@
     <Content Include="Html\Video.html" />
     <Content Include="Scripts\nodejs\eventemitter_2.js" />
     <Content Include="Scripts\nodejs\nodejs_buffer.js" />
+    <Content Include="Scripts\nodejs\nodejs_filesys.js" />
     <Content Include="Scripts\nodejs\nodejs_function.js" />
     <Content Include="Scripts\nodejs\nodejs_global.js" />
     <Content Include="Scripts\nodejs\nodejs_module.js" />
