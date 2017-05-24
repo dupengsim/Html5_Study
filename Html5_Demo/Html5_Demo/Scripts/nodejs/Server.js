@@ -1,11 +1,22 @@
 ﻿
 // 打开E:\Program Files\nodejs中的窗口，注册nodejs服务
 var http = require('http');
-http.createServer(function (request, response) {
 
+// 创建方式一：
+//http.createServer(function (request, response) {
+
+//    response.writeHead(200, { 'Content-Type': 'text/plain;charset=utf-8' });
+//    response.write('Hello World\n  你好，世界！');
+//    response.end();
+//}).listen(8888);
+
+// 创建方式二：
+function onRequest(request, response) {
     response.writeHead(200, { 'Content-Type': 'text/plain;charset=utf-8' });
-    response.end('Hello World\n  你好，世界！');
-}).listen(8888);
+    response.write('Hello World\n你好，世界！');
+    response.end();
+}
+http.createServer(onRequest).listen(8888);
 
 console.log('Server running at http://127.0.0.1:8888/');
 

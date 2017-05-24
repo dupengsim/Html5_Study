@@ -218,8 +218,12 @@
     <Content Include="Html\Video.html" />
     <Content Include="Scripts\nodejs\eventemitter_2.js" />
     <Content Include="Scripts\nodejs\nodejs_buffer.js" />
+    <Content Include="Scripts\nodejs\nodejs_function.js" />
     <Content Include="Scripts\nodejs\nodejs_module.js" />
     <Content Include="Scripts\nodejs\nodejs_module_main.js" />
+    <Content Include="Scripts\nodejs\nodejs_router.js" />
+    <Content Include="Scripts\nodejs\nodejs_router_index.js" />
+    <Content Include="Scripts\nodejs\nodejs_router_route.js" />
     <Content Include="Scripts\nodejs\nodejs_stream.js" />
     <Content Include="Scripts\nodejs\readfile.js" />
     <Content Include="Resources\MVI_0151.MOV" />
