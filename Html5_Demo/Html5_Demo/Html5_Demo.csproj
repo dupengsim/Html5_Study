@@ -220,6 +220,7 @@
     <Content Include="Scripts\nodejs\nodejs_buffer.js" />
     <Content Include="Scripts\nodejs\nodejs_filesys.js" />
     <Content Include="Scripts\nodejs\nodejs_function.js" />
+    <Content Include="Scripts\nodejs\nodejs_getpost.js" />
     <Content Include="Scripts\nodejs\nodejs_global.js" />
     <Content Include="Scripts\nodejs\nodejs_module.js" />
     <Content Include="Scripts\nodejs\nodejs_module_main.js" />
